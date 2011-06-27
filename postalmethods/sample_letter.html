@@ -1,0 +1,149 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="HTML Tidy for Linux (vers 1 September 2005), see www.w3.org" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PostalMethods HTML Sample - http://www.postalmethods.com/</title>
+
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+body {
+        text-align: left;
+        white-space: normal;
+        font-family: "Times New Roman", Times, serif;
+        margin:0;
+        padding:0;
+        height: 11in; /*Letter Size Paper*/
+        width: 8.5in; /*Letter Size Paper*/
+		margin-left: 0.5in;
+		margin-top: 0.5in;
+		margin-bottom: 0.5in;
+}
+#Addresses {
+		position:relative;
+		height:2.875in;	
+        width:7.4in;
+}
+#ReturnAddress {
+    position:absolute;
+    width:3.5in; Your company logo (optional). You can change the size of the font and your company logo image to make it fit to the envelope window */
+    height:0.792in;
+    font-size: 9pt;
+    z-index:100;
+}
+#CompanyLogo {
+    position:absolute;
+    left:2in;
+    width:1.45in;
+    height:0.792in;
+    z-index:10;
+	text-align:right;
+}
+#RecipientAddress {
+    position:absolute;
+    top:1.542in;
+    width:3.5in;
+    height:0.875in;
+    text-transform: uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+}
+#RightSideContent {
+	position:relative;
+	border:thin #000000;
+	left: 4.5in;
+	height: 2.8in;
+	width: 2.9in;
+}
+#BodyContent {
+    position:relative;
+    left:0;
+    width:7.4in;
+    font-size: 11pt;
+    line-height: 1.5;
+    white-space: normal;
+    margin:0;
+    padding:0;
+}
+.PageBreak {
+	page-break-after:always; /*Using this tag as a DIV class, forces a page break when printing the letter*/
+	height:1px;
+	margin:0;
+	padding:0;
+}
+-->
+/*]]>*/
+</style>
+</head>
+<body>
+<div id="Addresses">
+<!-- Return Address -->
+    <div id="ReturnAddress">States of the Union<br />
+    93S. Jackson Street<br />
+    Seattle  Washington 98104-2818<br />
+    United States<br /></div>
+    <div id="CompanyLogo"><img src="http://www.postalmethods.com/files/YourLogoHere.png" alt="Your Logo Here" /></div>
+
+<!-- Recipient Address -->
+    <div id="RecipientAddress">George Washington<br />
+    The White House<br />
+    1600 Pennsylvania Avenue NW<br />
+    Washington, DC 20500</div>
+
+<!-- Content printed to the right side of the addresses. This content is not visible through the envelope windows. -->
+	<div id="RightSideContent">
+    	<span style="text-align:right">
+    		<h1>PostalMethods</h1>
+        	<em>Date: March 01, 2009</em>
+        </span>
+        <p>PostalMethods makes it effortless to post invoices, send confirmations, or generate any other type of message via postal mail ("snail mail"). Additionally, letters can easily be issued from any online service or legacy application.</p>
+        <p>No more manual printing, folding, inserting, sealing, stamping, or delivering. PostalMethods does it all for you.</p>
+        
+    </div>
+</div>
+<!-- Content of the letter -->
+<div id="BodyContent">
+<h2>What can I use PostalMethods for?</h2>
+  <ul>
+	<li>Post a bunch of invoices without printing, folding, stuffing, sealing, stamping, and posting</li>
+	<li>Enable an e-commerce package to send confirmations, notifications and invoices by post</li>
+	<li>Enable an online service to send snail mail</li>
+	<li>Send letters from your CRM or accounting software</li>
+	<li>Have call center personnel send postal mail with no manual intervention</li>
+  </ul>
+
+<h2>How quickly are letters delivered?</h2>
+<p>Letters are transferred to a postal distribution center once a day on business days. For example, mail sent from the USA is transferred at 11am EST, so any letters submitted until around 10am EST will make it into the transferred batch. Once transferred to the USPS, standard delivery times apply.</p>
+
+<h2>Is the developer account really free?</h2>
+<p>Yes. The difference between a developer account and a regular account is that your letters will not actually get sent. Rather, your control panel will simulate the posting of letters. You can develop your application and see how the system reacts.</p>
+
+<h2>Do you add your logo to my letter?</h2>
+<p>NO! We only add serial numbers and 2D bar-codes to the letter for fulfillment purposes. These marks cannot be associated with PostalMethods in any way. We also add a stamp and a bar-code on the envelope. That's it.</p>
+
+<div class="PageBreak">&nbsp;</div>
+
+<h2>Can I have multiple users/usernames under an account?</h2>
+<p>Yes. You can have multiple users (people) working under a single username (login), and you can have multiple usernames, so that each person, department, or web application in your business can review their own posting activity. To add a new user login to your account as a user with Administrator permissions and click Account. In the Users tab, click on Add.</p>
+<h2>Can I have a mixed account - developing under one username and posting under another?</h2>
+<p>Yes, you can have multiple users under an account each with its own mode - Development or Production. This means that you can keep developing under one username (no cost, simulated letter posting), while another username is active (charged per item, letters actually sent).</p>
+
+<h2>How do I send a letter?</h2>
+<p>You can submit messages by two methods:</p>
+  <ol>
+	<li>Simply send an email with an attachment to send@letter.postalmethods.com. The first page of the attachment needs to include the recipient address.<br />
+See Email Reference for full details</li>
+	<li>Program a script to submit a message through our API, as explained in our Quick Start guide.</li>
+  </ol>
+  
+<h2>What happens to undeliverable letters?</h2>
+<p>They are returned to you if your return address appears in the top window of a double windows envelope, and you have selected first class postage (which includes returning the letter to its originator if undeliverable).</p>
+
+<h2>Can I send a letter internationally?</h2>
+<p>Yes, letters can be sent to any postal address worldwide. See the Pricing page under Optional Add-Ons for details.</p>
+
+</div>
+</body>
+</html>
